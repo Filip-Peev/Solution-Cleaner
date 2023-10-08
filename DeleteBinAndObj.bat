@@ -1,7 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
-set "targetFolder=C:\Users\%username%\Desktop\SolutionCleaner"
+set "targetFolder=C:\Users\%username%\Desktop\Solution-Cleaner"
 
 for /d /r "%targetFolder%" %%d in (*bin *obj) do (
     if "%%~nxd" == "bin" (
